@@ -37,3 +37,8 @@ Select * from AddressBook order by FirstName ASC;
 Select * from AddressBook order by FirstName DESC;
 Select * from AddressBook where City = 'Pimpri' order by LastName ASC;
 Select * from AddressBook where City = 'Wakad' order by LastName ASC;
+
+Alter table AddressBook add ContactType varchar(100);
+update AddressBook set ContactType='Friend' where LastName='Kalburgi';
+update AddressBook set ContactType='Family' where LastName='Jain';
+Select * from AddressBook;
