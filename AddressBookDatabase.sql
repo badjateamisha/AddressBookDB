@@ -22,3 +22,7 @@ Select * from AddressBook;
 
 update AddressBook set Address='XYZ Colony' where FirstName='Disha';
 update AddressBook set Address='XYZ Colony' where FirstName='Sagar';
+
+Insert into AddressBook Values ('Vibha','Jain','ABC Colony','Wakad','Pune',500010,'9000000005','vibha@gmail.com');
+
+Delete From AddressBook where FirstName = 'Sagar';
