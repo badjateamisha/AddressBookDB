@@ -26,3 +26,7 @@ update AddressBook set Address='XYZ Colony' where FirstName='Sagar';
 Insert into AddressBook Values ('Vibha','Jain','ABC Colony','Wakad','Pune',500010,'9000000005','vibha@gmail.com');
 
 Delete From AddressBook where FirstName = 'Sagar';
+
+Select * from AddressBook where City ='Pimpri' or State ='Pune';
+Select * from AddressBook where City ='Wakad';
+
