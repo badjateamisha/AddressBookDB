@@ -30,3 +30,5 @@ Delete From AddressBook where FirstName = 'Sagar';
 Select * from AddressBook where City ='Pimpri' or State ='Pune';
 Select * from AddressBook where City ='Wakad';
 
+select count(City) from AddressBook;
+select count(State) from AddressBook;
