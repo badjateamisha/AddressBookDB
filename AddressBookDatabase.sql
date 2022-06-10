@@ -32,3 +32,8 @@ Select * from AddressBook where City ='Wakad';
 
 select count(City) from AddressBook;
 select count(State) from AddressBook;
+
+Select * from AddressBook order by FirstName ASC;
+Select * from AddressBook order by FirstName DESC;
+Select * from AddressBook where City = 'Pimpri' order by LastName ASC;
+Select * from AddressBook where City = 'Wakad' order by LastName ASC;
