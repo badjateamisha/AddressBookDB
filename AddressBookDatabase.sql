@@ -42,3 +42,5 @@ Alter table AddressBook add ContactType varchar(100);
 update AddressBook set ContactType='Friend' where LastName='Kalburgi';
 update AddressBook set ContactType='Family' where LastName='Jain';
 Select * from AddressBook;
+
+select Count(ContactType) from AddressBook;
