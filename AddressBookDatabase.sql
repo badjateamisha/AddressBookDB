@@ -19,3 +19,6 @@ Insert into AddressBook Values ('Aarvik','Kalburgi','ABC Colony','Pimpri','Pune'
 Insert into AddressBook Values ('Disha','Jain','ABC Colony','Chinchwad','Pune',500010,'9000000003','disha@gmail.com');
 Insert into AddressBook Values ('Sagar','Kalburgi','ABC Colony','Chinchwad','Pune',500010,'9000000004','sagar@gmail.com');
 Select * from AddressBook;
+
+update AddressBook set Address='XYZ Colony' where FirstName='Disha';
+update AddressBook set Address='XYZ Colony' where FirstName='Sagar';
