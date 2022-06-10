@@ -44,3 +44,7 @@ update AddressBook set ContactType='Family' where LastName='Jain';
 Select * from AddressBook;
 
 select Count(ContactType) from AddressBook;
+
+Insert into AddressBook Values ('Sagar','Kalburgi','ABC Colony','Chinchwad','Pune',500010,'9000000004','sagar@gmail.com','Family');
+Insert into AddressBook Values('Sagar','Kalburgi','ABC Colony','Chinchwad','Pune',500010,'9000000004','sagar@gmail.com','Friend');
+Select * from AddressBook;
