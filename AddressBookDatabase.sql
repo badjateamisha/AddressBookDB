@@ -13,3 +13,9 @@ Zip int,
 PhoneNumber Varchar(100),
 Email_ID Varchar(100)
 );
+
+Insert into AddressBook Values ('Amisha','Jain','ABC Colony','Pimpri','Pune',500010,'9000000001','amisha@gmail.com');
+Insert into AddressBook Values ('Aarvik','Kalburgi','ABC Colony','Pimpri','Pune',500010,'9000000002','aarvik@gmail.com');
+Insert into AddressBook Values ('Disha','Jain','ABC Colony','Chinchwad','Pune',500010,'9000000003','disha@gmail.com');
+Insert into AddressBook Values ('Sagar','Kalburgi','ABC Colony','Chinchwad','Pune',500010,'9000000004','sagar@gmail.com');
+Select * from AddressBook;
